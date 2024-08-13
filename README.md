@@ -22,7 +22,7 @@ Clona el repositorio del proyecto desde tu fuente de control de versiones:
 
 ```bash
 git clone <[url-del-repositorio](https://github.com/romerodeveloper/ReservasBack.git)>
-
+```
 ### 2. Configurar el Entorno
 Asegúrate de tener Java JDK y Maven instalados en tu máquina. Verifica la instalación con los siguientes comandos:
 
