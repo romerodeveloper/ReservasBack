@@ -104,3 +104,18 @@ El uso de DTOs (`DatosAgendarReserva`, `DatosActualizacionReserva`, `DatosDetall
 
 - **Separar la lógica de negocio** de la capa de presentación, garantizando que solo los datos necesarios sean expuestos a través de los endpoints.
 - **Validar la entrada y salida de datos**, mejorando la seguridad y la integridad de los datos al evitar la exposición de detalles internos y controlar los datos que se envían y reciben.
+
+### Documentación de la API
+
+Para facilitar la comprensión y el uso de la API, se ha integrado Swagger en el proyecto. Swagger proporciona una interfaz visual para explorar y probar los endpoints de la API, lo que facilita el desarrollo y la depuración.
+
+### Acceso a la Documentación con Swagger
+
+1. **Inicia el Servidor Backend**:
+   Asegúrate de que el servidor backend esté en funcionamiento.
+
+2. **Accede a la Interfaz de Swagger:
+Una vez que el servidor esté en funcionamiento, abre un navegador web y navega a la siguiente URL:
+```bash
+http://localhost:8080/swagger-ui.html
+```
