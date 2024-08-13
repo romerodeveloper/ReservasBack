@@ -28,7 +28,8 @@ Asegúrate de tener Java JDK y Maven instalados en tu máquina. Verifica la inst
 
 ### 3. Configurar la Base de Datos
 Configura PostgreSQL de acuerdo a las propiedas descritas en el archivo application.properties
-El programa utilizo hibernate y el sistema ORM por lo tanto creara las tablas automaticamente, sin embargo se cargara la base de datos en los recursos para disponer de los datos de prueba guardados
+El programa utilizo hibernate y el sistema ORM por lo tanto creara las tablas automaticamente, sin embargo se cargara la base de datos en los recursos para disponer de los datos de prueba guardados.
+El archivo es de tipo Plain solo se debe copiar y ejecutar como una query contiene los datos y se ejecutaran como INSERT
 
 ### 4. Pruebas de Endpoints
 
